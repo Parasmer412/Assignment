@@ -1,0 +1,76 @@
+(Q-1) : What are JavaScript events? Explain the role of event listeners.
+
+=>  Events :
+
+
+>  In JavaScript, an event is an action or occurrence that happens in the browser, often triggered by the user or the browser itself.
+
+=> Examples:
+
+  > Clicking a button (onclick)
+
+  > Typing in a textbox (oninput)
+
+  > Loading a webpage (onload)
+
+  > Moving the mouse (onmousemove)
+
+>  Events allow you to make web pages interactive and dynamic.
+
+=> Role of Event Listeners
+
+> An event listener is a function that waits for a specific event to occur, then executes some code in response.
+
+> Instead of embedding event handling directly in HTML, you can attach event listeners using JavaScript.
+
+> This separates structure (HTML) from behavior (JS) and makes code more modular.
+
+--------------------------------------------------------------------------------
+
+(Q-2) :  How does the addEventListener() method work in JavaScript? Provide an example.
+
+  
+ => How addEventListener() Works
+
+  > addEventListener() is a method in JavaScript used to attach an event handler to an element.
+
+  > It lets you run some code when a specific event (like click, keypress, or mouseover) occurs.
+
+  > Unlike inline events (onclick="..."), it keeps HTML and JS separate and allows multiple event listeners on the same element.
+
+ 
+ => Syntax : element.addEventListener(event, function, useCapture);
+
+
+  > element → The HTML element you want to attach the listener to.
+
+  > event → Type of event (like "click", "mouseover", "keydown").
+
+  > function → The code (function) to execute when the event happens.
+
+  > useCapture (optional) → true or false, determines event flow (default: false).
+
+
+  => Example : 
+
+
+                 <!DOCTYPE html>
+            <html>
+            <head>
+              <title>addEventListener Example</title>
+            </head>
+            <body>
+              <button id="myBtn">Click Me</button>
+            
+              <script>
+                // Select button
+                let button = document.getElementById("myBtn");
+            
+                // Attach event listener
+                button.addEventListener("click", function() {
+                  alert("Button was clicked!");
+                });
+              </script>
+            </body>
+            </html>
+

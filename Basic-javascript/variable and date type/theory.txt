@@ -1,0 +1,119 @@
+Q.1  What are variables in JavaScript? How do you declare a variable using var, let, and const? 
+Ans => : 
+
+=> A variable is like a named container used to store data that can be used or changed later in the program. 
+
+=> In JavaScript, you can declare variables using var, let, or const.
+
+
+var city = "Delhi";  // using var 
+
+let score = 90;      // using let   
+ 
+const country = "India"; // using const 
+
+---------------------------------------------------------------------------------------------------------------------
+
+Q.2  Explain the different data types in JavaScript. Provide examples for each. ?
+
+Ans :
+
+=> JavaScript is a dynamically typed language — meaning you don’t need to declare the type of a variable 
+    explicitly; it’s decided at runtime based on the value.
+
+=> There are two main categories:
+
+(1)Primitive (basic) data types
+
+(2)Non-primitive (reference) data types
+
+then
+
+(1)Primitive (basic) data types Example :>
+
+    // String
+    let name = "Alice";
+    console.log(typeof name); // "string"
+    
+    // Number
+    let age = 25;
+    console.log(typeof age); // "number"
+    
+    // Boolean
+    let isStudent = true;
+    console.log(typeof isStudent); // "boolean"
+    
+    // Null
+    let data = null;
+    console.log(typeof data); // "object" (special case quirk in JavaScript)
+    
+    // Undefined
+    let x;
+    console.log(typeof x); // "undefined"
+    
+    // Symbol
+    let id = Symbol("uniqueId");
+    console.log(typeof id); // "symbol"
+    
+    // BigInt
+    let bigNumber = 9007199254740991n;
+    console.log(typeof bigNumber); // "bigint"
+
+(2)Non-primitive (reference) data types Example :>
+
+    (1)  // Object
+    let person = { name: "Alice", age: 25 };
+    console.log(typeof person); // "object"
+    
+    (2)  // Array
+    let numbers = [10, 20, 30];
+    console.log(typeof numbers); // "object" (arrays are special objects)
+    
+    (3)     // Function
+    function greet() {
+        return "Hello!";
+    }
+    console.log(typeof greet); // "function" (special type under object)
+
+
+
+  
+
+
+Q.3  What is the difference between undefined and null in JavaScript?
+
+ Ans =>:
+
+ :> Undefined
+
+     > Means no value has been assigned to a variable.
+     
+     > It’s the default value for:
+     
+     > A variable that’s declared but not initialized.
+     
+     > A function that doesn’t explicitly return a value.
+     
+     > A missing property of an object.
+     
+     > JavaScript automatically assigns undefined in these cases.      
+
+:> Example 
+    
+     let a;              // declared but not initialized
+     console.log(a);     // Output: undefined
+
+ 
+ :> null
+
+    > Represents an intentional absence of any value.
+    > 
+    > You assign null when you want to say:
+    > “This variable should be empty, no value right now.”
+    > 
+    > It’s used as a placeholder for something that might later hold an object or value.
+
+  :>Example
+   
+   let b = null;        // explicitly set to no value
+   console.log(b);      // Output: null

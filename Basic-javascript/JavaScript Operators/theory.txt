@@ -1,0 +1,121 @@
+(Q) 1: What are the different types of operators in JavaScript? Explain with examples.
+
+  1. Arithmetic Operators
+
+  :> Used to perform mathematical calculations.
+
+  :> Explain
+   
+    | Operator | Meaning                | Example (Cde)    | Result |
+  
+         +       Addition                5 + 3                 8    
+         -       Subtraction             5 - 3                 2    
+         *       Multiplication          5 * 3                 15   
+         /       Division                10 / 2                5    
+         %       Modulus (Remainder)     10 % 3                1    
+         ++      Increment (add 1)       let x = 5; x++;       6    
+         --      Decrement (subtract 1)  let x = 5; x--;       4    
+         **      Exponentiation (power)  2 ** 3                8    
+     
+    :> examples
+     
+     let a = 10, b = 3;
+     console.log(a + b);  // 13
+     console.log(a % b);  // 1
+     console.log(a ** b); // 1000 
+
+
+ 2. Assignment Operators
+
+ > Used to assign values to variables (sometimes with operations combined).
+
+ > Explain :
+
+ | Operator |  Meaning                   | Example Code | Result (if `x=5`) 
+ 
+     =         Assign                        x = 10         x becomes 10  
+     +=        Add and assign                x += 3         x = x + 3 → 8   
+     -=        Subtract and assign           x -= 2         x = x - 2 → 3   
+     *=        Multiply and assign           x *= 2         x = x * 2 → 10  
+     /=        Divide and assign             x /= 5         x = x / 5 → 1   
+     %=        Modulus and assign            x %= 2         x = x % 2 → 1   
+     **=       Exponentiation and assign     x **= 2        x = x ** 2 → 25 
+
+    :> Example
+
+     let x = 5;
+     x += 3; // 8
+     x *= 2; // 16
+     console.log(x); // 16
+ 
+
+ 3. Comparison Operators
+
+ > Used to compare two values and return a boolean (true or false).   
+
+ Operator | Meaning                          Example   Result  
+
+   ==      Equal to (loose, type converts)  5 =="5"    true  
+   ===     Strict equal (no type convert)   5 ==="5"   false 
+   !=      Not equal (loose)                5 != "5"   false 
+   !==     Strict not equal                 5 !=="5"   true  
+   >       Greater than                     10 > 5     true  
+   <       Less than                        10 < 5     false 
+   >=      Greater than or equal to         5 >= 5     true  
+   <=      Less than or equal to            5 <= 5     true  
+
+   :> Example 
+
+   let age = 18;
+   console.log(age >= 18);   // true
+   console.log(age === "18"); // false
+   
+ 
+ 4.Logical Operators
+
+ > Used to combine or invert boolean values.
+
+  Operator	    Meaning          	Example      	Result
+
+   &&	        Logical AND	       true && false	false
+   !	        Logical NOT	!         true	        false
+
+    :>Example
+
+    let loggedIn = true;
+    let isAdmin = false;
+    
+    console.log(loggedIn && isAdmin); // false (both must be true)
+    console.log(loggedIn || isAdmin); // true (at least one true)
+    console.log(!loggedIn);           // false (reverse of true)
+    
+
+    ------------------------------------------------------------------
+
+    (Q-2) : What is the difference between == and === in JavaScript?
+
+=>  '==' (Double Equals) 
+
+    Compares values for equality.
+    
+    Performs type conversion if the two values are of different types (also called type coercion).
+    
+    Example:>
+
+    console.log(5 == "5");   // true  
+    console.log(0 == false); // true  
+    console.log(null == undefined); // true (special case)
+
+=> '===' (Triple Equals) 
+
+    Compares values AND types for equality.
+    
+    No type conversion happens — both value and data type must match.
+    
+    Example:    
+
+    console.log(5 === "5");   // false 
+    console.log(0 === false); // false 
+    console.log(null === undefined); // false 
+    console.log(5 === 5);     // true 
+    

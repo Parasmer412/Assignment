@@ -1,0 +1,25 @@
+JavaScript Introduction Theory
+
+Q.1  What is JavaScript? Explain the role of JavaScript in webdevelopment. ?
+
+Ans =>:  
+• JavaScript is a high-level, lightweight, and interpreted programming language. 
+• It is mainly used to make web pages interactive and dynamic. 
+• JavaScript runs in the browser (client-side), but it can also run 
+  on the server side using environments like Node.js. 
+
+--------------------------------------------------------------------------------------
+
+Q.2  How is JavaScript different from other programming languages like Python or Java? 
+ Ans =>: 
+• JavaScript is primarily for front-end web development, while Python and Java are general-purpose
+ languages often used for backend, desktop, and other domains. 
+
+
+---------------------------------------------------------------------------------------
+
+Q.3  Discuss the use of <script> tag in HTML. How can you link an external JavaScript file to an HTML document? 
+ Ans => :  
+• The <script> tag is used in HTML to embed or reference JavaScript code. 
+• You can write JavaScript inline within the <script> tag, or link to an external file. 
+• Use the src attribute inside the <script> tag to link an external file.
