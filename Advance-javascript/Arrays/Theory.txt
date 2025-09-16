@@ -1,0 +1,40 @@
+(Q-1) : What is an array in JavaScript? How do you declare and initialize an array?
+
+=> Array in JavaScript:
+
+  > An array is a special variable that can hold multiple values in a single variable, stored in an ordered collection and accessed using an index (starting from 0).
+
+=> Declaration & Initialization:
+
+  > You can create an array using square brackets [] or by using the Array constructor.
+
+
+---------------------------------------------------------------------------------------
+
+(Q-2) : Explain the methods push(), pop(), shift(), and unshift() used in arrays.
+ 
+ => push()
+
+    Adds one or more elements to the end of the array.
+    
+    Returns the new length of the array.
+
+ => pop()
+
+    Removes the last element from the array.
+    
+    Returns the removed element.
+
+=> shift()
+
+    Removes the first element from the array.
+    
+    Shifts all other elements down by one index.
+    
+    Returns the removed element.
+
+=>  unshift()
+
+    Adds one or more elements to the beginning of the array.
+    
+    Returns the new length of the array.

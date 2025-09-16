@@ -1,0 +1,47 @@
+
+(Q-1 ): What is an object in JavaScript? How are objects different from arrays?
+  
+  object =>
+
+ > An object is a collection of properties, where each property is a key–value pair.
+
+ > Keys (also called properties) are usually strings, and values can be any data type (string, number, array, another object, function, etc.).
+  
+ > Objects are used to represent real-world entities (like a person, car, or product) with attributes and behaviors.
+
+
+
+=> How Objects are Different from Arrays ?
+
+    Feature                                 Objects                                                                  Arrays                                                             |
+| ------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| Structure     | Stores data as **key–value pairs**                                           | Stores data as **indexed list** (ordered)                              |
+| Access        | Accessed using keys (obj.key or obj["key"])                              | Accessed using index (`arr[0]`, `arr[1]`)                              |
+| Order         | Properties are **not guaranteed in order**                                   | Elements are **ordered by index**                                      |
+| Use Case      | Best for representing entities with attributes (e.g., person with name, age) | Best for ordered collections or lists of items (e.g., numbers, fruits) |
+
+
+------------------------------------------------------------------------------------------------------------------------------
+
+  (Q-2) : Explain how to access and update object properties using dot notation and bracket notation.?
+
+   => Accessing & Updating Object Properties in JavaScript
+
+    > An object stores data as key–value pairs.
+    > You can access or update these properties in two ways:
+     
+    > 1. Dot Notation (object.key)
+     
+    > Simple and commonly used.
+     
+    > Works when the property name is a valid identifier (no spaces, special characters, or starting with a number).
+     
+   => 2. Bracket Notation (object["key"])
+
+    > Property name is written as a string inside brackets.
+     
+    > Useful when:
+     
+    > Property names have spaces or special characters.
+     
+    > Property name is stored in a variable.
