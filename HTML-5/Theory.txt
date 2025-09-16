@@ -1,0 +1,105 @@
+( Q-1) :Difference b/w HTML & HTML5?
+ 
+ =>HTML (HyperText Markup Language)
+
+  > It is the standard markup language used to create web pages.
+   
+  > Older versions (like HTML 4.01, XHTML) required external plugins (Flash, Silverlight, etc.)     for multimedia.
+   
+  > Limited support for graphics, audio, and video.
+   
+  > Not mobile-friendly by default.
+   
+  > Error handling is stricter.
+   
+=>  HTML5
+   
+  > The latest version of HTML, introduced to make the web more powerful and modern.
+   
+  > Provides native support for audio (<audio>) and video (<video>) without external plugins.
+   
+  > Introduced new semantic tags like <header>, <footer>, <article>, <section>, <nav>.
+   
+  > Includes new form controls like date, email, number, range, etc.
+   
+  > Supports Canvas (<canvas>) and SVG for drawing graphics, animations, and games.
+   
+  > Geolocation API, Web Storage, WebSockets, and offline support (Application Cache / Service     Workers).
+   
+  > Designed to work better with mobile and responsive design.
+   
+  > More lenient error handling than older HTML.
+
+  ----------------------------------------------------------------------------------------------
+
+  (Q-2): What are the additional tags used in HTML5?
+   
+   Additional Tags in HTML5
+
+1. Semantic Structure Tags
+
+    These give meaning to the structure of a web page:
+    
+    <header> → Defines the header of a section/page.
+    
+    <footer> → Defines the footer of a section/page.
+    
+    <nav> → Defines navigation links.
+    
+    <section> → Defines a section in a document.
+    
+    <article> → Defines an independent piece of content (like blog post, news article).
+    
+    <aside> → Defines content indirectly related to the main content (like a sidebar).
+    
+    <main> → Represents the main content of the document.
+    
+    <figure> → Groups media content (image, diagram, chart).
+    
+    <figcaption> → Caption for <figure>.
+    
+    <mark> → Highlights or marks text.
+    
+    <time> → Represents time/date.
+
+2. Multimedia Tags
+
+     For audio and video support without plugins:
+     
+     <audio> → Embeds audio content.
+     
+     <video> → Embeds video content.
+     
+     <source> → Defines multiple media sources for <audio> / <video>.
+     
+     <track> → Adds subtitles or captions to <video> / <audio>.
+
+3. Graphics & Interactive Content
+
+     <canvas> → Used for 2D graphics, games, animations (via JavaScript).
+     
+     <svg> → Supports scalable vector graphics.
+
+4. Form Input Tags & Attributes
+
+     New form elements & input types:
+
+     <datalist> → Provides autocomplete options for <input>.
+     
+     <output> → Displays calculation results.
+     
+     <progress> → Shows progress bar.
+     
+     <meter> → Represents a measurement within a range.
+
+     New input types: email, url, number, range, date, datetime-local, month, week, time, search,      color.
+
+5. Other Useful Tags
+
+     <details> → Creates a collapsible section.
+     
+     <summary> → Defines a visible heading for <details>.
+     
+     <bdi> → Bi-directional isolation for text (useful in multi-language apps).
+     
+     <wbr> → Suggests a line break opportunity.
