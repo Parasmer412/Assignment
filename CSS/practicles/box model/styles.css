@@ -1,0 +1,65 @@
+
+/* Center the profile card on the page */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #eef2f5;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Profile Card Container - using border-box */
+.profile-card {
+  width: 300px;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-sizing: border-box; /* border-box applied here */
+}
+
+/* Profile Picture - using content-box */
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #007BFF;
+  padding: 5px;
+  margin-bottom: 15px;
+  box-sizing: content-box; /* content-box applied here */
+}
+
+/* User Name */
+.user-name {
+  margin: 10px 0 5px;
+  font-size: 1.5em;
+  color: #333;
+}
+
+/* User Bio */
+.user-bio {
+  margin: 0 0 20px;
+  font-size: 0.95em;
+  color: #666;
+  padding: 0 10px;
+}
+
+/* Follow Button */
+.follow-btn {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.follow-btn:hover {
+  background-color: #0056b3;
+}
